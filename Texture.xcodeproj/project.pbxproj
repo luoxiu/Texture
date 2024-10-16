@@ -1074,16 +1074,16 @@
 					"$(inherited)",
 					"$(SRCROOT)/spm-sources/spm-headers",
 					"$(inherited)",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINCache/Source",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINCache/Source/include",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINOperation/Source",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINOperation/Source/include",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINRemoteImage/Source/Classes",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINRemoteImage/Source/Classes/AnimatedImages",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINRemoteImage/Source/Classes/Categories",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINRemoteImage/Source/Classes/ImageCategories",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINRemoteImage/Source/Classes/PinCache",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINRemoteImage/Source/Classes/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINCache/Source",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINCache/Source/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINOperation/Source",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINOperation/Source/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINRemoteImage/Source/Classes",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINRemoteImage/Source/Classes/AnimatedImages",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINRemoteImage/Source/Classes/Categories",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINRemoteImage/Source/Classes/ImageCategories",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINRemoteImage/Source/Classes/PinCache",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINRemoteImage/Source/Classes/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/AsyncDisplayKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1097,18 +1097,18 @@
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-name=AsyncDisplayKit",
-					"-fmodule-map-file=$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/tuist-derived/PINCache/PINCache.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/tuist-derived/PINOperation/PINOperation.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/tuist-derived/PINRemoteImage/PINRemoteImage.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/PINCache/PINCache.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/PINOperation/PINOperation.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/PINRemoteImage/PINRemoteImage.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/tuist-derived/PINCache/PINCache.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/PINCache/PINCache.modulemap",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/tuist-derived/PINOperation/PINOperation.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/PINOperation/PINOperation.modulemap",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/tuist-derived/PINRemoteImage/PINRemoteImage.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/PINRemoteImage/PINRemoteImage.modulemap",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = AsyncDisplayKit;
 				PRODUCT_NAME = AsyncDisplayKit;
@@ -1164,16 +1164,16 @@
 					"$(inherited)",
 					"$(SRCROOT)/spm-sources/spm-headers",
 					"$(inherited)",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINCache/Source",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINCache/Source/include",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINOperation/Source",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINOperation/Source/include",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINRemoteImage/Source/Classes",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINRemoteImage/Source/Classes/AnimatedImages",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINRemoteImage/Source/Classes/Categories",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINRemoteImage/Source/Classes/ImageCategories",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINRemoteImage/Source/Classes/PinCache",
-					"$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/checkouts/PINRemoteImage/Source/Classes/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINCache/Source",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINCache/Source/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINOperation/Source",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINOperation/Source/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINRemoteImage/Source/Classes",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINRemoteImage/Source/Classes/AnimatedImages",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINRemoteImage/Source/Classes/Categories",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINRemoteImage/Source/Classes/ImageCategories",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINRemoteImage/Source/Classes/PinCache",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/PINRemoteImage/Source/Classes/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/AsyncDisplayKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1187,18 +1187,18 @@
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-name=AsyncDisplayKit",
-					"-fmodule-map-file=$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/tuist-derived/PINCache/PINCache.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/tuist-derived/PINOperation/PINOperation.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/tuist-derived/PINRemoteImage/PINRemoteImage.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/PINCache/PINCache.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/PINOperation/PINOperation.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/PINRemoteImage/PINRemoteImage.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/tuist-derived/PINCache/PINCache.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/PINCache/PINCache.modulemap",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/tuist-derived/PINOperation/PINOperation.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/PINOperation/PINOperation.modulemap",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../luoxiu/Fleet/Tuist/.build/tuist-derived/PINRemoteImage/PINRemoteImage.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/PINRemoteImage/PINRemoteImage.modulemap",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = AsyncDisplayKit;
 				PRODUCT_NAME = AsyncDisplayKit;
