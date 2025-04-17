@@ -265,7 +265,15 @@
   static MKAnnotationView *pin;
   static dispatch_once_t onceToken;
   dispatch_once(&onceToken, ^{
-    pin = [[MKPinAnnotationView alloc] initWithAnnotation:nil reuseIdentifier:@""];
+    
+    if (NSThread.isMainThread) {
+      pin = [[MKPinAnnotationView alloc] initWithAnnotation:nil reuseIdentifier:@""];
+    } else {
+      dispatch_sync(dispatch_get_main_queue(), ^{
+        pin = [[MKPinAnnotationView alloc] initWithAnnotation:nil reuseIdentifier:@""];
+      });
+    }
+    
   });
   *centerOffset = pin.centerOffset;
   return pin.image;
